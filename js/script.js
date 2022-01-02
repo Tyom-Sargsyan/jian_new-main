@@ -66,7 +66,9 @@ $(function () {
         })
         .then(jsondata => {
             let content = ``
-            if (window.location.href.indexOf('cart') > -1) jsondata = jsondata.filter(e => JSON.parse(localStorage.getItem('jianCart')).includes(e.id))
+            if (window.location.href.indexOf('cart') > -1) {
+                jsondata = jsondata.filter(e => JSON.parse(localStorage.getItem('jianCart')).includes(e.id))
+            }
             jsondata.map(e => {
                 !uniqueBrands.includes(e.brand) ? uniqueBrands.push(e.brand) : ''
                 content += `
@@ -75,7 +77,7 @@ $(function () {
                         <div class="top"
                             style="background: url(img/${e.img}) no-repeat center center;">
                         </div>
-                        <div class="bottom ${JSON.parse(localStorage.getItem('jianCart')).includes(e.id) ? 'clicked' : ''}">
+                        <div class="bottom ${localStorage.getItem('jianCart') && JSON.parse(localStorage.getItem('jianCart')).includes(e.id) ? 'clicked' : ''}">
                             <div class="left">
                                 <div class="details">
                                     <h1>${e.title}</h1>
@@ -124,6 +126,9 @@ $(function () {
                 `
             })
             $('#products > div > div').html(content)
+            if(jsondata.length == 0){
+                $('#products > div > div').html(`<h1 class="py-5 text-center">Cart is empty</h1>`) 
+            }
             content = ``
             uniqueBrands.map(brand => {
                 content += `<div class="form-group col-lg-3 col-md-4 col-sm-6">
