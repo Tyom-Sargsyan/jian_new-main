@@ -46,7 +46,7 @@ $(function () {
     });
 
     $('#someProducts [data-id]').each(function (index) {
-        if (JSON.parse(localStorage.getItem('jianCart')).includes($(this).data('id'))) {
+        if (localStorage.getItem('jianCart') && JSON.parse(localStorage.getItem('jianCart')).includes($(this).data('id'))) {
             $(this).find('.bottom').addClass('clicked')
         }
     })
