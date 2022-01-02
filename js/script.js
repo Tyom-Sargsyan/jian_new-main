@@ -25,7 +25,6 @@ toggleIcon.addEventListener('click', () => {
 
 $(function () {
     window.addEventListener('scroll', () => {
-        // console.log(document.querySelector('#header').getBoundingClientRect().bottom - document.querySelector('#header').scrollTop)
         if (document.querySelector('#header').getBoundingClientRect().bottom - document.querySelector('#header').scrollTop <= 0) {
             $("#navbar").addClass('navbarScrolled');
         } else {
@@ -39,10 +38,25 @@ $(function () {
 
     $('body').on('click', '.buy', function () {
         $(this).parent().parent().addClass("clicked");
+        if (localStorage.getItem('jianCart')) {
+            localStorage.setItem('jianCart', JSON.stringify(JSON.parse(localStorage.getItem('jianCart')).concat([$(this).parent().parent().parent().parent().data('id')])))
+        } else {
+            localStorage.setItem('jianCart', JSON.stringify([$(this).parent().parent().parent().parent().data('id')]))
+        }
     });
+
+    $('#someProducts [data-id]').each(function (index) {
+        if (JSON.parse(localStorage.getItem('jianCart')).includes($(this).data('id'))) {
+            $(this).find('.bottom').addClass('clicked')
+        }
+    })
 
     $('body').on('click', '.remove', function () {
         $(this).parent().parent().parent().removeClass("clicked");
+        let arr = JSON.parse(localStorage.getItem('jianCart'))
+        arr.splice(arr.indexOf($(this).parent().parent().parent().parent().parent().data('id')), 1)
+        localStorage.setItem('jianCart', JSON.stringify(arr))
+        if (window.location.href.indexOf('cart') > -1) $(this).parent().parent().parent().parent().parent().hide()
     });
 
     let uniqueBrands = [];
@@ -51,8 +65,8 @@ $(function () {
             return response.json();
         })
         .then(jsondata => {
-            console.log(jsondata)
             let content = ``
+            if (window.location.href.indexOf('cart') > -1) jsondata = jsondata.filter(e => JSON.parse(localStorage.getItem('jianCart')).includes(e.id))
             jsondata.map(e => {
                 !uniqueBrands.includes(e.brand) ? uniqueBrands.push(e.brand) : ''
                 content += `
@@ -61,7 +75,7 @@ $(function () {
                         <div class="top"
                             style="background: url(img/${e.img}) no-repeat center center;">
                         </div>
-                        <div class="bottom">
+                        <div class="bottom ${JSON.parse(localStorage.getItem('jianCart')).includes(e.id) ? 'clicked' : ''}">
                             <div class="left">
                                 <div class="details">
                                     <h1>${e.title}</h1>
@@ -109,7 +123,6 @@ $(function () {
                 </div>
                 `
             })
-            console.log(uniqueBrands)
             $('#products > div > div').html(content)
             content = ``
             uniqueBrands.map(brand => {
@@ -125,7 +138,6 @@ $(function () {
         });
 
     $('#checkAll').click(function () {
-        console.log($(this).filter(":checked").length)
         $('#filters > div > form > div > input').prop('checked', this.checked);
         if ($(this).filter(":checked").length) {
             $("[data-brand]").show()
@@ -146,14 +158,12 @@ $(function () {
 
     $('#search').keyup(() => {
         $("[data-brand]").each(function (index) {
-            console.log(index + ": " + $(this).find('.bottom .left .details h1').text(), "==="+ $(this).data('brand'));
-            if($(this).find('.bottom .left .details h1').text().toLowerCase().indexOf($('#search').val().toLowerCase()) > -1 || $(this).data('brand').toLowerCase().indexOf($('#search').val().toLowerCase()) > -1){
+            if ($(this).find('.bottom .left .details h1').text().toLowerCase().indexOf($('#search').val().toLowerCase()) > -1 || $(this).data('brand').toLowerCase().indexOf($('#search').val().toLowerCase()) > -1) {
                 $(this).show()
             } else {
                 $(this).hide()
             }
         });
-        console.log($('#search').val())
     })
 
 });
