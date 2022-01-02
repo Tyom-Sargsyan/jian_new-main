@@ -8,8 +8,8 @@
     {
         "title": " OUD SATIN MOOD",
         "id": "002",
-        "img": "MASION-FRANCIS-KURKDJIAN--OUD-SATIN-MOOD-№002.jpg",
-        "brand": "MASION FRANCIS KURKDJIAN"
+        "img": "MAISON-FRANCIS-KURKDJIAN--OUD-SATIN-MOOD-№002.jpg",
+        "brand": "MAISON FRANCIS KURKDJIAN"
     },
     {
         "title": "AQUA CELESTIA",
@@ -26,7 +26,7 @@
     {
         "title": "I DON'T NEED A PRINCE BY MY SIDE TO BE A PRINCESS",
         "id": "010",
-        "img": "KILIAN-I-DON'T-NEED-A-PRINCE-BY-MY-SIDE-TO-BE-A-PRINCESS-№010.jpg",
+        "img": "KILIAN-I-DONT-NEED-A-PRINCE-BY-MY-SIDE-TO-BE-A-PRINCESS-№010.jpg",
         "brand": "KILIAN"
     },
     {
@@ -68,7 +68,7 @@
     {
         "title": "BY KILIAN  DON'T BE SHY",
         "id": "017",
-        "img": "LOVE-BY-KILIAN--DON'T-BE-SHY-№017.jpg",
+        "img": "LOVE-BY-KILIAN--DONT-BE-SHY-№017.jpg",
         "brand": "LOVE"
     },
     {
@@ -210,10 +210,10 @@
         "brand": "BURBERRY"
     },
     {
-        "title": "Burberry",
+        "title": "My Burberry",
         "id": "086",
         "img": "My-Burberry-№086.jpg",
-        "brand": "My"
+        "brand": "Burberry"
     },
     {
         "title": "OMNIA CRYSTALLIE",
@@ -386,7 +386,7 @@
     {
         "title": "J'ADORE",
         "id": "203",
-        "img": "DIOR-J'ADORE-№203.jpg",
+        "img": "DIOR-JADORE-№203.jpg",
         "brand": "DIOR"
     },
     {
@@ -542,13 +542,13 @@
     {
         "title": "L'AMBRE DES MERVEILLES",
         "id": "343",
-        "img": "HERMES-L'AMBRE-DES-MERVEILLES-№343.jpg",
+        "img": "HERMES-LAMBRE-DES-MERVEILLES-№343.jpg",
         "brand": "HERMES"
     },
     {
         "title": "TERRE D'HERMES",
         "id": "344",
-        "img": "HERMES-TERRE-D'HERMES-№344.jpg",
+        "img": "HERMES-TERRE-DHERMES-№344.jpg",
         "brand": "HERMES"
     },
     {
@@ -620,7 +620,7 @@
     {
         "title": "L'AMOUR",
         "id": "403",
-        "img": "LALIQUE-L'AMOUR-№403.jpg",
+        "img": "LALIQUE-LAMOUR-№403.jpg",
         "brand": "LALIQUE"
     },
     {
@@ -638,13 +638,13 @@
     {
         "title": "ECLAT D'ARPEGE",
         "id": "430",
-        "img": "LANVIN-ECLAT-D'ARPEGE-№430.jpg",
+        "img": "LANVIN-ECLAT-DARPEGE-№430.jpg",
         "brand": "LANVIN"
     },
     {
         "title": "ECLAT D'ARPEGE POUR HOMME",
         "id": "431",
-        "img": "LANVIN-ECLAT-D'ARPEGE-POUR-HOMME-№431.jpg",
+        "img": "LANVIN-ECLAT-DARPEGE-POUR-HOMME-№431.jpg",
         "brand": "LANVIN"
     },
     {
@@ -974,97 +974,97 @@
     {
         "title": "ANGEL DARK",
         "id": "660",
-        "img": "VICTORIA'S-SECRET-ANGEL-DARK-№660.jpg",
+        "img": "VICTORIAS-SECRET-ANGEL-DARK-№660.jpg",
         "brand": "VICTORIA'S SECRET"
     },
     {
         "title": "ANGEL GOLD",
         "id": "661",
-        "img": "VICTORIA'S-SECRET-ANGEL-GOLD-№661.jpg",
+        "img": "VICTORIAS-SECRET-ANGEL-GOLD-№661.jpg",
         "brand": "VICTORIA'S SECRET"
     },
     {
         "title": "ANGEL ONLY",
         "id": "662",
-        "img": "VICTORIA'S-SECRET-ANGEL-ONLY-№662.jpg",
+        "img": "VICTORIAS-SECRET-ANGEL-ONLY-№662.jpg",
         "brand": "VICTORIA'S SECRET"
     },
     {
         "title": "BOMBSHELL",
         "id": "663",
-        "img": "VICTORIA'S-SECRET-BOMBSHELL-№663.jpg",
+        "img": "VICTORIAS-SECRET-BOMBSHELL-№663.jpg",
         "brand": "VICTORIA'S SECRET"
     },
     {
         "title": "BOMBSHELL IN BLOOM",
         "id": "664",
-        "img": "VICTORIA'S-SECRET-BOMBSHELL-IN-BLOOM-№664.jpg",
+        "img": "VICTORIAS-SECRET-BOMBSHELL-IN-BLOOM-№664.jpg",
         "brand": "VICTORIA'S SECRET"
     },
     {
         "title": "VERY SEXY",
         "id": "665",
-        "img": "VICTORIA'S-SECRET-VERY-SEXY-№665.jpg",
+        "img": "VICTORIAS-SECRET-VERY-SEXY-№665.jpg",
         "brand": "VICTORIA'S SECRET"
     },
     {
         "title": "VERY SEXY NOW",
         "id": "666",
-        "img": "VICTORIA'S-SECRET-VERY-SEXY-NOW-№666.jpg",
+        "img": "VICTORIAS-SECRET-VERY-SEXY-NOW-№666.jpg",
         "brand": "VICTORIA'S SECRET"
     },
     {
         "title": "WICKEND",
         "id": "667",
-        "img": "VICTORIA'S-SECRET-WICKEND-№667.jpg",
+        "img": "VICTORIAS-SECRET-WICKEND-№667.jpg",
         "brand": "VICTORIA'S SECRET"
     },
     {
         "title": "XO VICTORIA",
         "id": "668",
-        "img": "VICTORIA'S-SECRET-XO-VICTORIA-№668.jpg",
+        "img": "VICTORIAS-SECRET-XO-VICTORIA-№668.jpg",
         "brand": "VICTORIA'S SECRET"
     },
     {
         "title": "LOVE IS HEAVENLY",
         "id": "669",
-        "img": "VICTORIA'S-SECRET-LOVE-IS-HEAVENLY-№669.jpg",
+        "img": "VICTORIAS-SECRET-LOVE-IS-HEAVENLY-№669.jpg",
         "brand": "VICTORIA'S SECRET"
     },
     {
         "title": "DARK ORCHID SEDUCTION",
         "id": "670",
-        "img": "VICTORIA'S-SECRET-DARK-ORCHID-SEDUCTION-№670.jpg",
+        "img": "VICTORIAS-SECRET-DARK-ORCHID-SEDUCTION-№670.jpg",
         "brand": "VICTORIA'S SECRET"
     },
     {
         "title": "FEARLESS",
         "id": "671",
-        "img": "VICTORIA'S-SECRET-FEARLESS-№671.jpg",
+        "img": "VICTORIAS-SECRET-FEARLESS-№671.jpg",
         "brand": "VICTORIA'S SECRET"
     },
     {
         "title": "FORBIDDEN",
         "id": "672",
-        "img": "VICTORIA'S-SECRET-FORBIDDEN-№672.jpg",
+        "img": "VICTORIAS-SECRET-FORBIDDEN-№672.jpg",
         "brand": "VICTORIA'S SECRET"
     },
     {
         "title": "SEXY LITTLE THINGS NOIR",
         "id": "673",
-        "img": "VICTORIA'S-SECRET-SEXY-LITTLE-THINGS-NOIR-№673.jpg",
+        "img": "VICTORIAS-SECRET-SEXY-LITTLE-THINGS-NOIR-№673.jpg",
         "brand": "VICTORIA'S SECRET"
     },
     {
         "title": "SEXY LITTLE THINGS NOIR TEASE",
         "id": "674",
-        "img": "VICTORIA'S-SECRET-SEXY-LITTLE-THINGS-NOIR-TEASE-№674.jpg",
+        "img": "VICTORIAS-SECRET-SEXY-LITTLE-THINGS-NOIR-TEASE-№674.jpg",
         "brand": "VICTORIA'S SECRET"
     },
     {
         "title": "SEXY LITTLE THINGS NOIR TEASE TEMPTATION",
         "id": "675",
-        "img": "VICTORIA'S-SECRET-SEXY-LITTLE-THINGS-NOIR-TEASE-TEMPTATION-№675.jpg",
+        "img": "VICTORIAS-SECRET-SEXY-LITTLE-THINGS-NOIR-TEASE-TEMPTATION-№675.jpg",
         "brand": "VICTORIA'S SECRET"
     }
 ]
