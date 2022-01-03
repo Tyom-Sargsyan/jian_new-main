@@ -66,10 +66,10 @@
         "brand": "KILIAN"
     },
     {
-        "title": "BY KILIAN  DON'T BE SHY",
+        "title": "LOVE BY KILIAN  DON'T BE SHY",
         "id": "017",
         "img": "LOVE-BY-KILIAN--DONT-BE-SHY-№017.jpg",
-        "brand": "LOVE"
+        "brand": "KILIAN"
     },
     {
         "title": "SMOKE FOR THE SOUL",
@@ -105,6 +105,12 @@
         "title": "BACK TO BLACK",
         "id": "023",
         "img": "KILIAN-BACK-TO-BLACK-№023.jpg",
+        "brand": "KILIAN"
+    },
+    {
+        "title": "Rolling in love",
+        "id": "024",
+        "img": "Kilian-Rolling-in-love-№024.jpg",
         "brand": "KILIAN"
     },
     {
@@ -196,6 +202,12 @@
         "id": "070",
         "img": "ANTONIO-BANDERAS-BLUE-SEDUCTION-№070.jpg",
         "brand": "ANTONIO BANDERAS"
+    },
+    {
+        "title": "BASI IN RED",
+        "id": "075",
+        "img": "ARMAND-BASI-IN-RED-№075.png",
+        "brand": "ARMAND"
     },
     {
         "title": "PRIVATE AFFAIRS",
@@ -318,10 +330,10 @@
         "brand": "CHANEL"
     },
     {
-        "title": "DE CHANEL",
+        "title": "BLEU DE CHANEL",
         "id": "156",
         "img": "BLEU-DE-CHANEL-№156.jpg",
-        "brand": "BLEU"
+        "brand": "CHANEL"
     },
     {
         "title": "ALLURE HOMME",
@@ -390,10 +402,10 @@
         "brand": "DIOR"
     },
     {
-        "title": "DIOR BLOOMING BOUQUET",
+        "title": "MISS DIOR BLOOMING BOUQUET",
         "id": "204",
         "img": "MISS-DIOR-BLOOMING-BOUQUET-№204.jpg",
-        "brand": "MISS"
+        "brand": "DIOR"
     },
     {
         "title": "THE ONLY ONE",
@@ -474,6 +486,18 @@
         "brand": "ARMANI"
     },
     {
+        "title": "BECAUSE OF YOU",
+        "id": "248",
+        "img": "EMPORIO-ARMANI-BECAUSE-OF-YOU№248.jpg",
+        "brand": "ARMANI"
+    },
+    {
+        "title": "Si Passione",
+        "id": "249",
+        "img": "Armani-Si-Passione-№247.jpg",
+        "brand": "ARMANI"
+    },
+    {
         "title": "ANGE OU DEMON LE SECRET",
         "id": "270",
         "img": "GIVENCHY-ANGE-OU-DEMON-LE-SECRET-№270.jpg",
@@ -496,6 +520,12 @@
         "id": "273",
         "img": "GIVENCHY-PLAY-FOR-HER-№273.jpg",
         "brand": "GIVENCHY"
+    },
+    {
+        "title": "GUILTY",
+        "id": "300",
+        "img": "gucci-guilty-№300.jpg",
+        "brand": "GUCCI"
     },
     {
         "title": "GUILTY POUR HOMME",
@@ -636,6 +666,18 @@
         "brand": "LALIQUE"
     },
     {
+        "title": "LA VIE EST BELLE",
+        "id": "420",
+        "img": "LANCOME-LA-VIE-EST-BELLE№420.jpg",
+        "brand": "LANCOME"
+    },
+    {
+        "title": "CLIMAT",
+        "id": "421",
+        "img": "LANCOME-CLIMAT№421.jpg",
+        "brand": "LANCOME"
+    },
+    {
         "title": "ECLAT D'ARPEGE",
         "id": "430",
         "img": "LANVIN-ECLAT-DARPEGE-№430.jpg",
@@ -696,7 +738,13 @@
         "brand": "NARCISO RODRIGUEZ"
     },
     {
-        "title": "NIHILO FLEUR NARCOTIQUE",
+        "title": "for her pure musc",
+        "id": "469",
+        "img": "narciso-rodriguez-for-her-pure-musc-№469.jpg",
+        "brand": "NARCISO RODRIGUEZ"
+    },
+    {
+        "title": "EX NIHILO FLEUR NARCOTIQUE",
         "id": "475",
         "img": "EX-NIHILO-FLEUR-NARCOTIQUE-№475.jpg",
         "brand": "EX"
@@ -936,6 +984,12 @@
         "brand": "TOM FORD"
     },
     {
+        "title": "bitter peach",
+        "id": "622",
+        "img": "tom-ford-bitter-peach-№622.jpg",
+        "brand": "TOM FORD"
+    },
+    {
         "title": "DONNA",
         "id": "630",
         "img": "TRUSSARDI-DONNA-№630.jpg",
@@ -1066,5 +1120,11 @@
         "id": "675",
         "img": "VICTORIAS-SECRET-SEXY-LITTLE-THINGS-NOIR-TEASE-TEMPTATION-№675.jpg",
         "brand": "VICTORIA'S SECRET"
+    },
+    {
+        "title": "ATTAR COLLECTION",
+        "id": "680",
+        "img": "ATTAR-COLLECTION-MUSK-KASHMIR№680.jpg",
+        "brand": "MUSK KASHMIR№680"
     }
 ]

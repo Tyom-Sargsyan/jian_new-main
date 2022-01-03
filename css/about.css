@@ -52,6 +52,11 @@
     border-right-width: 14px;
     border-left-width: 0;
 }
+.timeline>li .timeline-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 .timeline>li .timeline-image {
     position: absolute;
