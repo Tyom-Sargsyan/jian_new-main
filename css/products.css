@@ -300,7 +300,7 @@
   border-radius: 4px;
   cursor: pointer;
   color: white;
-  background: #f9c847;
+  background: #959595;
   text-decoration: none;
   text-transform: uppercase;
   overflow: hidden;
@@ -472,7 +472,7 @@
   height: -moz-fit-content;
   height: fit-content;
   position: relative;
-  background-color: #f9c847;
+  background-color: #959595;
 }
 
 #search {
@@ -486,7 +486,7 @@
   border-radius: 25px;
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
-  background-color: #f9c847;
+  background-color: #959595;
   padding-right: 40px;
   color: white;
 }

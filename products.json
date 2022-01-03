@@ -498,6 +498,12 @@
         "brand": "ARMANI"
     },
     {
+        "title": "Giorgio Armani Acqua di Gioia",
+        "id": "250",
+        "img": "Giorgio-Armani-Acqua-diGioia-№250.jpg",
+        "brand": "ARMANI"
+    },
+    {
         "title": "ANGE OU DEMON LE SECRET",
         "id": "270",
         "img": "GIVENCHY-ANGE-OU-DEMON-LE-SECRET-№270.jpg",
@@ -1125,6 +1131,6 @@
         "title": "ATTAR COLLECTION",
         "id": "680",
         "img": "ATTAR-COLLECTION-MUSK-KASHMIR№680.jpg",
-        "brand": "MUSK KASHMIR№680"
+        "brand": "MUSK KASHMIR"
     }
 ]

@@ -260,4 +260,9 @@ ul {
     overflow-y: scroll;
   }
 }
+
+.logo > a:hover {
+  color: white;
+  text-decoration: underline;
+}
 /*# sourceMappingURL=main.css.map */

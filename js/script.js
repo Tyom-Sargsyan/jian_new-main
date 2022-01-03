@@ -119,6 +119,12 @@ $(function () {
                                 <tr>
                                     <td>4.000֏/8.000֏/13.000֏</td>
                                 </tr>
+                                <tr>
+                                    <th>ID</th>
+                                </tr>
+                                <tr>
+                                    <td>${e.id}</td>
+                                </tr>
                             </table>
                         </div>
                     </div>
@@ -163,7 +169,7 @@ $(function () {
 
     $('#search').keyup(() => {
         $("[data-brand]").each(function (index) {
-            if ($(this).find('.bottom .left .details h1').text().toLowerCase().indexOf($('#search').val().toLowerCase()) > -1 || $(this).data('brand').toLowerCase().indexOf($('#search').val().toLowerCase()) > -1) {
+            if ($(this).find('.bottom .left .details h1').text().toLowerCase().indexOf($('#search').val().toLowerCase()) > -1 || $(this).data('brand').toLowerCase().indexOf($('#search').val().toLowerCase()) > -1 || $(this).attr('data-id').indexOf($('#search').val().toLowerCase()) > -1) {
                 $(this).show()
             } else {
                 $(this).hide()

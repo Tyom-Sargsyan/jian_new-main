@@ -29,7 +29,7 @@ header #navbar {
 }
 
 header #navbar.navbarScrolled {
-  background: #ffc800;
+  background: #959595;
   background-image: none;
 }
 
@@ -112,7 +112,7 @@ header #navbar li a:hover {
 
 header #navbar li a:before,
 header #navbar li a:after {
-  content: "";
+  content: '';
   position: absolute;
   width: 0%;
   height: 1px;
@@ -173,7 +173,7 @@ header #navbar li a:hover:after {
   }
   header .icon-bars::before {
     background: #0d1a26;
-    content: "";
+    content: '';
     position: absolute;
     left: 0;
     top: -8px;
@@ -187,7 +187,7 @@ header #navbar li a:hover:after {
   header .icon-bars::after {
     margin-top: 0px;
     background: #0d1a26;
-    content: "";
+    content: '';
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -322,7 +322,7 @@ header #navbar li a:hover:after {
 }
 
 header .overlay-menu {
-  background: #ffc800;
+  background: #959595;
   color: #0d1a26;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -400,7 +400,7 @@ header .overlay-menu li a:active {
 }
 
 .header:after {
-  content: "";
+  content: '';
   width: 100%;
   height: 100%;
   position: absolute;
@@ -412,7 +412,7 @@ header .overlay-menu li a:active {
 }
 
 .header:before {
-  content: "";
+  content: '';
   width: 100%;
   height: 200%;
   position: absolute;
@@ -423,13 +423,19 @@ header .overlay-menu li a:active {
   backface-visibility: hidden;
   transform: translateZ(0);
   background: #1b2030 url(../img/1.jpg) 50% 50% no-repeat;
-  background-size: 100%;
+  background-size: 200%;
   background-attachment: fixed;
-  -webkit-animation: grow 360s linear 10ms infinite;
-          animation: grow 360s linear 10ms infinite;
+  -webkit-animation: grow 90s linear 10ms infinite;
+          animation: grow 90s linear 10ms infinite;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   z-index: -2;
+}
+
+@media (max-width: 500px) {
+  .header:before {
+    background: #1b2030 url(../img/1.jpg) 50% 0 no-repeat;
+  }
 }
 
 .header a {
@@ -449,7 +455,7 @@ header .overlay-menu li a:active {
 }
 
 .menu:after {
-  content: "";
+  content: '';
   display: block;
   width: 20px;
   height: 3px;
@@ -524,8 +530,8 @@ header .overlay-menu li a:active {
             transform: scale(1) translateY(0px);
   }
   50% {
-    -webkit-transform: scale(1.2) translateY(-400px);
-            transform: scale(1.2) translateY(-400px);
+    -webkit-transform: scale(1.2) translateY(-25%);
+            transform: scale(1.2) translateY(-25%);
   }
 }
 
@@ -535,8 +541,8 @@ header .overlay-menu li a:active {
             transform: scale(1) translateY(0px);
   }
   50% {
-    -webkit-transform: scale(1.2) translateY(-400px);
-            transform: scale(1.2) translateY(-400px);
+    -webkit-transform: scale(1.2) translateY(-25%);
+            transform: scale(1.2) translateY(-25%);
   }
 }
 /*# sourceMappingURL=header.css.map */
