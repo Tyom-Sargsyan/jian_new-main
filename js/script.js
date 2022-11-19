@@ -15,7 +15,7 @@ menuIcon.addEventListener('click', () => {
 // Toggle Menu Icon ========================================
 let toggleIcon = document.querySelector('.menuIcon');
 
-toggleIcon.addEventListener('click', () => {
+toggleIcon.addEventListener('click', () => { 
     if (toggleIcon.className != 'menuIcon toggle') {
         toggleIcon.className += ' toggle';
     } else {
@@ -81,7 +81,7 @@ $(function () {
                             <div class="left">
                                 <div class="details">
                                     <h1>${e.title}</h1>
-                                    <p>4.300֏ - 15.501֏</p>
+                                    <p>4.300֏ - 15.500֏</p>
                                 </div>
                                 <div class="buy"><i class="fa fa-cart-plus"></i></div>
                             </div>
